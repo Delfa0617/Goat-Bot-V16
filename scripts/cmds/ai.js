@@ -31,7 +31,9 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🏀 La perfection n'est pas un objectif, c'est une obligation 🏀");
+        await message.reply("╔═❖•ೋ° °ೋ•❖═╗𝑳'𝑰𝑵𝑽𝑰S𝑰𝑩𝑳𝑬 
+𝒑𝒐𝒖𝒓 𝒗𝒐𝒖𝒔 𝒂𝒊𝒅𝒆𝒓
+ 𝑳𝑰𝑬𝑵 𝑫𝑬 𝑳'𝑨𝑫𝑴𝑰𝑵 : https://www.facebook.com/profile.php?id=61553392844761 ╚═❖•ೋ° °ೋ•❖═╝");
         return;
       }
 
@@ -44,7 +46,8 @@ module.exports = {
 ✨ 𝐌𝐈𝐂𝐊𝐄𝐘 ✨
 ━━━━━━━━━━━━━        
 ${answer}
-━━━━━━━━━━━━━`,
+━━━━━━━━━━━━━
+𝑳𝑰𝑬𝑵 𝑫𝑬 𝑳’𝑨𝑫𝑴𝑰𝑵`,
 });
 
    } catch (error) {
