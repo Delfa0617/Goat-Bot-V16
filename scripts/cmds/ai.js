@@ -47,7 +47,7 @@ module.exports = {
 ━━━━━━━━━━━━━        
 ${answer}
 ━━━━━━━━━━━━━
-𝑳𝑰𝑬𝑵 𝑫𝑬 𝑳’𝑨𝑫𝑴𝑰𝑵`,
+𝑳𝑰𝑬𝑵 𝑫𝑬 𝑳’𝑨𝑫𝑴𝑰𝑵: https://www.facebook.com/profile.php?id=61553392844761`,
 });
 
    } catch (error) {
