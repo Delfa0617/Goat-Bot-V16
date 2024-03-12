@@ -1,8 +1,8 @@
-const axios = require('axios');
+ const axios = require('axios');
 
 const Prefixes = [
   '/ai',
-  'bot',
+  'kim',
   'Nemo',
   '+ai',
   'nemo',
@@ -31,8 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply(",😗🍷𝑆𝑎𝑙𝑢𝑡, 𝑚𝑜𝑖 𝑐'𝑒𝑠𝑡 𝑝𝑜𝑤𝑒𝑟 
-𝑄𝑢𝑒𝑙 𝑒𝑠𝑡 𝑣𝑜𝑡𝑟𝑒 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛❓");
+        await message.reply("𝑠𝑎𝑙𝑢𝑡 𝑡𝑜𝑖 , 𝑚𝑜𝑖 𝑐𝑒𝑠𝑡 𝑙𝑖𝑛𝑣𝑖𝑠𝑖𝑏𝑙𝑒 𝑐𝑒𝑠𝑡 𝑞𝑢𝑜𝑖 𝑡𝑎 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 😗🍷");
         return;
       }
 
@@ -41,10 +40,10 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `𝑉𝑂𝐼𝐶𝐼 𝐿𝐴 𝑅𝐸𝑃𝑂𝑁𝑆𝐸 À 𝑉𝑂𝑇𝑅𝐸 𝑄𝑈𝐸𝑆𝑇𝐼𝑂𝑁 😗🍷
+    await message.reply({ body: `Mickey 😗🍷
 ━━━━━━━━━━━━━        
 ${answer}
-━━━━━━━━━━━━━`,
+━━━━━━━━━━━━━ https://www.facebook.com/profile.php?id=61553392844761`,
 });
 
    } catch (error) {
