@@ -2,7 +2,7 @@
 
 const Prefixes = [
   '/ai',
-  'kim',
+  'bot',
   'Nemo',
   '+ai',
   'nemo',
@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("𝑠𝑎𝑙𝑢𝑡 𝑡𝑜𝑖 , 𝑚𝑜𝑖 𝑐𝑒𝑠𝑡 𝑙𝑖𝑛𝑣𝑖𝑠𝑖𝑏𝑙𝑒 𝑐𝑒𝑠𝑡 𝑞𝑢𝑜𝑖 𝑡𝑎 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 😗🍷");
+        await message.reply("𝑆𝑎𝑙𝑢𝑡 𝑡𝑜𝑖 , 𝑚𝑜𝑖 𝑐𝑒𝑠𝑡 𝑙𝑖𝑛𝑣𝑖𝑠𝑖𝑏𝑙𝑒 𝑐𝑒𝑠𝑡 𝑞𝑢𝑜𝑖 𝑡𝑎 𝑞𝑢𝑒𝑠𝑡𝑖𝑜𝑛 😗🍷");
         return;
       }
 
@@ -40,7 +40,7 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `Mickey 😗🍷
+    await message.reply({ body: `𝑀𝐼𝐶𝐾𝐸𝑌 😗🍷
 ━━━━━━━━━━━━━        
 ${answer}
 ━━━━━━━━━━━━━ https://www.facebook.com/profile.php?id=61553392844761`,
